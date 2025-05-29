@@ -1,26 +1,20 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
+class Task2 extends StatelessWidget {
+  const Task2 ({super.key});
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
+  Widget build (BuildContext context){
+return Scaffold(
+  appBar:AppBar(
           title: Text("container column , row ,icon and list task"),
-        ),
+        ) ,
         body: Homescreen(),
-      ),
-    );
+
+);
+
   }
 }
+
 
 class Homescreen extends StatelessWidget {
   const Homescreen({super.key});
